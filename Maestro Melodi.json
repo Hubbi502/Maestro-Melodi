@@ -229,12 +229,369 @@
         "name": "salah",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/bg/main-title.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\main-title.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/text/nada_burung_nusantara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\text\\nada_burung_nusantara.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\start.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/setting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\setting.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/music_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\music_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/sound_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\sound_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/bg_slider.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\bg_slider.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/slider_fill_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\slider_fill_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\thumb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/slider_fill_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\slider_fill_2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dark_screen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_setting",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\bg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 688,
+                        "y": 0
+                      },
+                      {
+                        "x": 688,
+                        "y": 582
+                      },
+                      {
+                        "x": 0,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "music_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\music_icon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 134,
+                        "y": 0
+                      },
+                      {
+                        "x": 134,
+                        "y": 134
+                      },
+                      {
+                        "x": 0,
+                        "y": 134
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sound_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\sound_icon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 144,
+                        "y": 0
+                      },
+                      {
+                        "x": 144,
+                        "y": 104
+                      },
+                      {
+                        "x": 0,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "setting",
+        "children": [
+          {
+            "objectName": "music_icon"
+          },
+          {
+            "objectName": "sound_icon"
+          },
+          {
+            "objectName": "bg_setting"
+          },
+          {
+            "objectName": "dark_screen"
+          }
+        ]
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -259,6 +616,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-title"
     }
   ],
   "externalEvents": [],
@@ -270,7 +635,16 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/setting"
+    }
+  ]
 }
