@@ -70,12 +70,12 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -323,6 +323,22 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\setting\\slider_fill_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/BG_hutan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\BG_hutan.png",
         "smoothed": true,
         "userAdded": false
       }
