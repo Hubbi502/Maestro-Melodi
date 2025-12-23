@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "main_45scene",
-  "name": "main-scene",
+  "mangledName": "level_953",
+  "name": "level_3",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -80,13 +80,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "play_sound_button",
-      "persistentUuid": "6dd6a0d8-1f20-4607-821e-d2552548ec12",
+      "layer": "bg",
+      "name": "bg_hutan",
+      "persistentUuid": "464fbf87-f750-4498-9a9b-5c4a77dab1a2",
       "width": 0,
-      "x": 1125,
-      "y": 101,
-      "zOrder": 100,
+      "x": 0,
+      "y": 0,
+      "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -97,321 +97,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "draggable_debug",
-      "persistentUuid": "f3b47bb3-c2d7-43a9-8885-b27fe19943ea",
+      "name": "bg_nada",
+      "persistentUuid": "d8a91267-e94b-48ff-a149-b1c117bd60a9",
       "width": 0,
-      "x": 458,
-      "y": 201,
-      "zOrder": 52,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "draggable_debug",
-      "persistentUuid": "1e98f979-cb70-4153-8142-ec6cb89e5795",
-      "width": 0,
-      "x": 232,
-      "y": 202,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "draggable_debug",
-      "persistentUuid": "24adb49e-dc6a-4412-bc2e-471b56432ca5",
-      "width": 0,
-      "x": 711,
-      "y": 198,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "draggable_debug",
-      "persistentUuid": "a03a9553-ec90-4857-aad0-18d4cfd223f6",
-      "width": 0,
-      "x": 870,
-      "y": 193,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "slot",
-      "persistentUuid": "a1b3409f-0a40-463c-912d-3cf3bb855efa",
-      "width": 0,
-      "x": 151,
-      "y": 460,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "slot",
-      "persistentUuid": "57722897-5883-4295-bc65-2d39eb6eaa55",
-      "width": 0,
-      "x": 405,
-      "y": 464,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "slot",
-      "persistentUuid": "03ad583f-283f-42bd-ae0d-ca2e32cfec3b",
-      "width": 0,
-      "x": 674,
-      "y": 466,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "slot",
-      "persistentUuid": "a46986f1-0772-4394-a672-f110cc9c62a3",
-      "width": 0,
-      "x": 906,
-      "y": 465,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Text_A",
-      "persistentUuid": "1ea958b3-aab3-49bf-913f-969e5d5a67f9",
-      "width": 0,
-      "x": 248,
-      "y": 204,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Text_I",
-      "persistentUuid": "608aa1ee-cc16-407b-a52d-e9e2196c15cb",
-      "width": 0,
-      "x": 477,
-      "y": 203,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Text_U",
-      "persistentUuid": "9661bb82-ee9a-4929-bb4b-8941131b6639",
-      "width": 0,
-      "x": 726,
-      "y": 200,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Text_O",
-      "persistentUuid": "78d3a6b4-303f-44e5-81fe-6646e01368ea",
-      "width": 0,
-      "x": 887,
-      "y": 196,
-      "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "default_position",
-      "persistentUuid": "0e302c73-b275-4db9-ab53-3857ebe9fac8",
-      "width": 0,
-      "x": 147,
-      "y": 146,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "default_position",
-      "persistentUuid": "1db7ee8d-b048-4240-a3da-57f8cd2cae17",
-      "width": 0,
-      "x": 405,
-      "y": 146,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "default_position",
-      "persistentUuid": "b325faf7-7b2e-4178-8b2a-f75aa2673dfc",
-      "width": 0,
-      "x": 673,
-      "y": 146,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "default_position",
-      "persistentUuid": "671f75f5-8087-4c43-b3ec-14ed7e89442c",
-      "width": 0,
-      "x": 917,
-      "y": 146,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1.6842105263157894,
-      "height": 256,
-      "layer": "",
-      "name": "decider",
-      "persistentUuid": "b97bba90-401c-47e2-bd54-e8466c1ddf7e",
-      "width": 256,
-      "x": 1026,
-      "y": 1,
-      "zOrder": 75,
+      "x": 293.55,
+      "y": 348.87,
+      "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -451,79 +142,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "draggable_debug",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1032,6 +650,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_hutan",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\bg\\bg_hutan_with_pond.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_nada",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\bg_nada.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 730,
+                        "y": 0
+                      },
+                      {
+                        "x": 730,
+                        "y": 107
+                      },
+                      {
+                        "x": 0,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1061,13 +799,16 @@
         "objectName": "play_sound_button"
       },
       {
-        "objectName": "draggable_debug"
-      },
-      {
         "objectName": "slot"
       },
       {
         "objectName": "decider"
+      },
+      {
+        "objectName": "bg_hutan"
+      },
+      {
+        "objectName": "bg_nada"
       }
     ]
   },
@@ -1088,7 +829,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "draggable_debug",
+          "object": "draggable",
           "conditions": [
             {
               "type": {
@@ -1098,7 +839,7 @@
                 "default_position",
                 "id",
                 "=",
-                "draggable_debug.id"
+                "draggable.id"
               ]
             }
           ],
@@ -1108,7 +849,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "=",
                 "default_position.X()",
                 "=",
@@ -1167,7 +908,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "draggable_debug",
+          "object": "draggable",
           "conditions": [
             {
               "type": {
@@ -1177,7 +918,7 @@
                 "default_position",
                 "id",
                 "=",
-                "draggable_debug.id"
+                "draggable.id"
               ]
             }
           ],
@@ -1187,7 +928,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "=",
                 "default_position.X()",
                 "=",
@@ -1516,7 +1257,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "id",
                 "=",
                 "0"
@@ -1531,9 +1272,9 @@
               "parameters": [
                 "Text_A",
                 "=",
-                "draggable_debug.CenterX()",
+                "draggable.CenterX()",
                 "=",
-                "draggable_debug.CenterY()"
+                "draggable.CenterY()"
               ]
             }
           ]
@@ -1546,7 +1287,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "id",
                 "=",
                 "1"
@@ -1561,9 +1302,9 @@
               "parameters": [
                 "Text_I",
                 "=",
-                "draggable_debug.CenterX()",
+                "draggable.CenterX()",
                 "=",
-                "draggable_debug.CenterY()"
+                "draggable.CenterY()"
               ]
             }
           ]
@@ -1576,7 +1317,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "id",
                 "=",
                 "2"
@@ -1591,9 +1332,9 @@
               "parameters": [
                 "Text_U",
                 "=",
-                "draggable_debug.CenterX()",
+                "draggable.CenterX()",
                 "=",
-                "draggable_debug.CenterY()"
+                "draggable.CenterY()"
               ]
             }
           ]
@@ -1606,7 +1347,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "id",
                 "=",
                 "3"
@@ -1621,9 +1362,9 @@
               "parameters": [
                 "Text_O",
                 "=",
-                "draggable_debug.CenterX()",
+                "draggable.CenterX()",
                 "=",
-                "draggable_debug.CenterY()"
+                "draggable.CenterY()"
               ]
             }
           ]
@@ -1648,7 +1389,7 @@
                 "value": "DraggableBehavior::Dropped"
               },
               "parameters": [
-                "draggable_debug",
+                "draggable",
                 "Draggable"
               ]
             },
@@ -1672,7 +1413,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "draggable_debug",
+                    "draggable",
                     "slot",
                     "",
                     "",
@@ -1701,7 +1442,7 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "draggable_debug",
+                        "draggable",
                         "id",
                         "=",
                         "slot.correct_answer"
@@ -1732,7 +1473,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "draggable_debug",
+                    "draggable",
                     "slot",
                     "",
                     "",
@@ -1753,7 +1494,7 @@
                         "default_position",
                         "id",
                         "=",
-                        "draggable_debug.id"
+                        "draggable.id"
                       ]
                     }
                   ],
@@ -1763,7 +1504,7 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "draggable_debug",
+                        "draggable",
                         "=",
                         "default_position.X()",
                         "=",
@@ -1878,7 +1619,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "draggable_debug",
+                  "object": "draggable",
                   "conditions": [
                     {
                       "type": {
@@ -1888,7 +1629,7 @@
                         "default_position",
                         "id",
                         "=",
-                        "draggable_debug.id"
+                        "draggable.id"
                       ]
                     }
                   ],
@@ -1898,7 +1639,7 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "draggable_debug",
+                        "draggable",
                         "=",
                         "default_position.X()",
                         "=",
@@ -1916,7 +1657,7 @@
                       },
                       "parameters": [
                         "",
-                        "draggable_debug"
+                        "draggable"
                       ]
                     }
                   ],
@@ -1926,7 +1667,7 @@
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
-                        "draggable_debug",
+                        "draggable",
                         "Draggable",
                         "yes"
                       ]
@@ -1942,6 +1683,60 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "bg",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

@@ -341,6 +341,262 @@
         "name": "assets\\bg\\BG_hutan.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\slot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan_with_kayu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan_with_kayu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan_with_pond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan_with_pond.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg_nada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_nada.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -585,6 +841,568 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "draggable",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "burung_merah_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 211.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 213
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_hijau_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 197
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 180.5,
+                        "y": 195.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 163,
+                        "y": 176
+                      },
+                      {
+                        "x": 40,
+                        "y": 178
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 164,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_merah_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -606,6 +1424,9 @@
             "objectName": "dark_screen"
           }
         ]
+      },
+      {
+        "objectName": "draggable"
       }
     ]
   },
@@ -636,6 +1457,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
