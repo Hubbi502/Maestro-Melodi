@@ -1073,6 +1073,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1120,6 +1121,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1291,7 +1293,7 @@
                 "assets\\test_audio\\A.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1321,7 +1323,7 @@
                 "assets\\test_audio\\I.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1351,7 +1353,7 @@
                 "assets\\test_audio\\U.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1381,7 +1383,7 @@
                 "assets\\test_audio\\O.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -2018,6 +2020,10 @@
       "type": "ButtonStates::ButtonFSM"
     },
     {
+      "name": "ButtonScaleTween",
+      "type": "ButtonStates::ButtonScaleTween"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -2040,6 +2046,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
