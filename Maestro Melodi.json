@@ -1,9 +1,9 @@
 {
   "firstLayout": "start-title",
   "gdVersion": {
-    "build": 250,
+    "build": 248,
     "major": 5,
-    "minor": 6,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -762,6 +762,86 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "correct_layer",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 729.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 729.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 730.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 730.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 733.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 733.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 734.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 734.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 738.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 738.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 739.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 739.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 (2).png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1688,7 +1768,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.05,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -2965,6 +3045,40 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TransisiLoading",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3010,6 +3124,9 @@
       },
       {
         "objectName": "correct_and_incorrrect_layer"
+      },
+      {
+        "objectName": "TransisiLoading"
       }
     ]
   },
@@ -3085,6 +3202,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/loading_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-menu"
     }
   ],
   "externalEvents": [
@@ -3109,6 +3230,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": [

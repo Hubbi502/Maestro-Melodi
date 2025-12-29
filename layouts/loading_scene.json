@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416428125373102,
+    "zoomFactor": 0.5117784035210174,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -66,11 +66,28 @@
       "keepRatio": true,
       "layer": "",
       "name": "burung_loading",
+      "opacity": 0,
       "persistentUuid": "4def11f3-727f-48e3-9969-680df9306a45",
       "width": 0,
       "x": 517,
       "y": 281,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "layer": "",
+      "name": "TransisiLoading",
+      "persistentUuid": "d0c48dd8-a41b-4e35-b9c3-cee3a1023ead",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -147,8 +164,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "Memuat.",
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.25,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Memuat...",
       "font": "assets\\happy_school\\Happy School.ttf",
       "textAlignment": "left",
       "characterSize": 64,
@@ -171,7 +198,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Memuat.",
+        "text": "Memuat...",
         "font": "assets\\happy_school\\Happy School.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -188,7 +215,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "Frame",
@@ -338,6 +370,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -346,8 +384,129 @@
             "value": "PrioritizeLoadingOfScene"
           },
           "parameters": [
+            "TransisiKe___",
+            "loading_target"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "memuat_text",
+            "AutoTyping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "TransisiLoading",
+            "FlashTransitionPainter",
+            "\"252;203;184\"",
+            "0.5",
+            "\"Flash\"",
+            "\"Backward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "burung_loading",
+            "Tween",
+            "\"Muncul\"",
+            "255",
+            "\"linear\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "TransisiLoading",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "memuat_text",
+            "AutoTyping",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AreSceneAssetsLoaded"
+          },
+          "parameters": [
             "",
             "loading_target"
+          ]
+        },
+        {
+          "type": {
+            "value": "AutoTyping::AutoTyping::IsFinished"
+          },
+          "parameters": [
+            "memuat_text",
+            "AutoTyping",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "burung_loading",
+            "Tween",
+            "\"Keluar\"",
+            "1500",
+            "-135",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+          },
+          "parameters": [
+            "burung_loading",
+            "Tween",
+            "\"Miring\"",
+            "-15",
+            "\"linear\"",
+            "0.5",
+            ""
           ]
         },
         {
@@ -355,7 +514,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "2.5"
+            "1.5"
           ]
         },
         {
@@ -444,6 +603,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
+    },
+    {
       "name": "ButtonFSM",
       "type": "ButtonStates::ButtonFSM"
     },
@@ -454,6 +617,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Flippable",
