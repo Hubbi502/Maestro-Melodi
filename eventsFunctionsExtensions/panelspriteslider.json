@@ -3753,21 +3753,21 @@
               "effects": [],
               "behaviors": [],
               "string": "It displays the value when it changes.",
-              "font": "",
+              "font": "assets\\happy_school\\Happy School.ttf",
               "textAlignment": "",
-              "characterSize": 20,
+              "characterSize": 25,
               "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
+                "b": 44,
+                "g": 83,
+                "r": 163
               },
               "content": {
                 "bold": false,
-                "isOutlineEnabled": false,
+                "isOutlineEnabled": true,
                 "isShadowEnabled": false,
                 "italic": false,
                 "outlineColor": "255;255;255",
-                "outlineThickness": 2,
+                "outlineThickness": 3,
                 "shadowAngle": 90,
                 "shadowBlurRadius": 2,
                 "shadowColor": "0;0;0",
@@ -3776,12 +3776,12 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "It displays the value when it changes.",
-                "font": "",
+                "font": "assets\\happy_school\\Happy School.ttf",
                 "textAlignment": "",
                 "verticalTextAlignment": "top",
-                "characterSize": 20,
+                "characterSize": 25,
                 "lineHeight": 0,
-                "color": "0;0;0"
+                "color": "163;83;44"
               }
             },
             {
@@ -4026,21 +4026,21 @@
               "effects": [],
               "behaviors": [],
               "string": "It displays the value when it changes.",
-              "font": "",
+              "font": "assets\\happy_school\\Happy School.ttf",
               "textAlignment": "",
-              "characterSize": 20,
+              "characterSize": 25,
               "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
+                "b": 44,
+                "g": 83,
+                "r": 163
               },
               "content": {
                 "bold": false,
-                "isOutlineEnabled": false,
+                "isOutlineEnabled": true,
                 "isShadowEnabled": false,
                 "italic": false,
                 "outlineColor": "255;255;255",
-                "outlineThickness": 2,
+                "outlineThickness": 3,
                 "shadowAngle": 90,
                 "shadowBlurRadius": 2,
                 "shadowColor": "0;0;0",
@@ -4049,12 +4049,12 @@
                 "smoothed": true,
                 "underlined": false,
                 "text": "It displays the value when it changes.",
-                "font": "",
+                "font": "assets\\happy_school\\Happy School.ttf",
                 "textAlignment": "",
                 "verticalTextAlignment": "top",
-                "characterSize": 20,
+                "characterSize": 25,
                 "lineHeight": 0,
-                "color": "0;0;0"
+                "color": "163;83;44"
               }
             },
             {

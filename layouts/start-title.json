@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4633111824513977,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -69,9 +69,9 @@
       "name": "start",
       "persistentUuid": "904f45de-9930-48f5-b8db-d98451392a4b",
       "width": 0,
-      "x": 1300,
-      "y": 275,
-      "zOrder": 3,
+      "x": 735,
+      "y": 735,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -85,8 +85,8 @@
       "name": "setting_button",
       "persistentUuid": "7444ff35-eb72-442e-8899-6c09a303c6e6",
       "width": 0,
-      "x": 1300,
-      "y": 440,
+      "x": 707,
+      "y": 800,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,6 +244,22 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 15,
+          "LoopDuration": 4,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -332,6 +348,22 @@
           "FadeInEasing": "easeInOutQuad",
           "FadeOutEasing": "easeInOutQuad",
           "PreviousState": "Idle"
+        },
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": -3,
+          "LoopDuration": 3,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
         },
         {
           "name": "Tween",
@@ -424,6 +456,22 @@
           "PreviousState": "Idle"
         },
         {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 3,
+          "LoopDuration": 3,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -488,6 +536,36 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "EllipseMovement",
+          "type": "EllipseMovement::EllipseMovement",
+          "RadiusX": 0,
+          "RadiusY": 3,
+          "LoopDuration": 3,
+          "InitialTurningLeft": false,
+          "InitialDirectionAngle": 0,
+          "ShouldRotate": false,
+          "RotationOffset": 0,
+          "CenterX": 0,
+          "CenterY": 0,
+          "MovementAngle": 0,
+          "OldX": 2.0247e-320,
+          "OldY": 2.0247e-320
+        },
+        {
+          "name": "Sway",
+          "type": "Sway::Sway",
+          "Scale": "Scale",
+          "TweenBehavior": "Tween",
+          "AngleLeft": -5,
+          "AngleRight": 10,
+          "AngleTimeMin": 1,
+          "AngleTimeMax": 3,
+          "YScaleMin": 1,
+          "YScaleMax": 1,
+          "YScaleTimeMin": 1,
+          "YScaleTimeMax": 1
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -716,13 +794,13 @@
         },
         {
           "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
             "start",
             "Tween",
             "\"Masuk\"",
-            "735",
+            "275",
             "\"easeOutQuad\"",
             "0.65",
             ""
@@ -730,13 +808,13 @@
         },
         {
           "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
             "setting_button",
             "Tween",
             "\"Masuk\"",
-            "707",
+            "440",
             "\"easeOutQuad\"",
             "0.75",
             ""
@@ -805,17 +883,46 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetStringVariable"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
-            "loading_target",
-            "=",
-            "\"Level Menu\""
+            "",
+            "button play - maestro melodi.wav",
+            "0",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "start",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "setting_button",
+            "ButtonFSM",
+            ""
           ]
         },
         {
@@ -887,7 +994,7 @@
           },
           "parameters": [
             "",
-            "\"loading_scene\"",
+            "\"Level Menu\"",
             ""
           ]
         }
@@ -1047,6 +1154,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "EllipseMovement",
+      "type": "EllipseMovement::EllipseMovement"
+    },
+    {
       "name": "FlashTransitionPainter",
       "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
@@ -1065,6 +1176,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sway",
+      "type": "Sway::Sway"
     },
     {
       "name": "Tween",

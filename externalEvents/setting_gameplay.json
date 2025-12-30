@@ -17,12 +17,12 @@
       "actions": [
         {
           "type": {
-            "value": "MettreX"
+            "value": "MettreY"
           },
           "parameters": [
             "setting",
             "=",
-            "setting.X()+1280"
+            "setting.Y() - 1280"
           ]
         },
         {
@@ -85,15 +85,28 @@
       "actions": [
         {
           "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "button setting di menu - maestro melod.wav",
+            "0",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
             "setting",
             "Tween",
-            "\"go left\"",
-            "setting.X() - 1280",
+            "\"go down\"",
+            "setting.Y() + 1280",
             "\"easeOutQuad\"",
-            "1",
+            "0.75",
             ""
           ]
         },
@@ -236,24 +249,45 @@
           },
           "parameters": [
             "",
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+            "button X di setting - maestro melodi.wav",
+            "0",
+            "",
+            "",
+            ""
+=======
+>>>>>>> Stashed changes
             "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
             "0",
             "",
             "setting_var.sound",
             "1"
+<<<<<<< Updated upstream
+=======
+>>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
+>>>>>>> Stashed changes
           ]
         },
         {
           "type": {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+=======
+>>>>>>> Stashed changes
             "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+>>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
           },
           "parameters": [
             "setting",
             "Tween",
-            "\"go right\"",
-            "setting.X() + 1280",
+            "\"go up\"",
+            "setting.Y() - 1280",
             "\"easeInQuad\"",
-            "1",
+            "0.75",
             ""
           ]
         },
@@ -299,7 +333,7 @@
           "parameters": [
             "setting",
             "Tween",
-            "\"go right\""
+            "\"go up\""
           ]
         },
         {
@@ -524,6 +558,77 @@
             "\"info\"",
             ""
           ]
+<<<<<<< Updated upstream
+=======
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "music",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "button geser volume - maestro melodi.wav",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "sound",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "button geser volume - maestro melodi.wav",
+            "",
+            "",
+            ""
+          ]
+>>>>>>> Stashed changes
         }
       ]
     }

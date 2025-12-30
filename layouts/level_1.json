@@ -1381,7 +1381,21 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "drop jawaban - maestro melod.wav",
+                "0",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "colorB": 228,
