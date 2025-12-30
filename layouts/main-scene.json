@@ -27,7 +27,7 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "sound",
+      "name": "sound_var",
       "type": "array",
       "children": [
         {
@@ -1142,7 +1142,7 @@
           },
           "parameters": [
             "",
-            "sound",
+            "sound_var",
             ""
           ]
         },
@@ -1216,7 +1216,7 @@
                     "slot",
                     "correct_answer",
                     "=",
-                    "sound[index]"
+                    "sound_var[index]"
                   ]
                 },
                 {
@@ -1277,7 +1277,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound[Variable]",
+                "sound_var[Variable]",
                 "=",
                 "0"
               ]
@@ -1307,7 +1307,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound[Variable]",
+                "sound_var[Variable]",
                 "=",
                 "1"
               ]
@@ -1337,7 +1337,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound[Variable]",
+                "sound_var[Variable]",
                 "=",
                 "2"
               ]
@@ -1367,7 +1367,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound[Variable]",
+                "sound_var[Variable]",
                 "=",
                 "3"
               ]

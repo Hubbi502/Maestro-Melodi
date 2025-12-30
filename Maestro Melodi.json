@@ -1,7 +1,7 @@
 {
   "firstLayout": "start-title",
   "gdVersion": {
-    "build": 250,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -763,6 +763,154 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "correct_layer",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_select_level.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_select_level.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg_select_level_board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_select_level_board.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_1_lock@2x.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/level/level_1_lock@2x.png\",\"extension\":\".png\"}",
+        "name": "assets\\level\\level_1_lock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_1_unlock@2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_1_unlock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_2_lock@2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_2_lock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_2_unlock@2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_2_unlock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_3_lock@2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_3_lock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_3_unlock@2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_3_unlock@2x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_1_lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_1_lock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_1_unlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_1_unlock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_2_lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_2_lock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_2_unlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_2_unlock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_3_lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_3_lock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/level/level_3_unlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\level\\level_3_unlock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gembok.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gembok.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/menu bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\menu bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/hutan gameplay bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\hutan gameplay bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -3059,6 +3207,11 @@
       "name": "loading_target",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "level_unlock",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -3085,6 +3238,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/loading_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/select_level"
     }
   ],
   "externalEvents": [
@@ -3095,6 +3252,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/setting_gameplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_gameplay_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_gameplay_2"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -3109,6 +3278,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
     }
   ],
   "externalLayouts": [
