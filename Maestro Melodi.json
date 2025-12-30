@@ -1,9 +1,9 @@
 {
   "firstLayout": "start-title",
   "gdVersion": {
-    "build": 251,
+    "build": 248,
     "major": 5,
-    "minor": 6,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -766,151 +766,83 @@
         "userAdded": false
       },
       {
-        "file": "assets/bg/bg_select_level.png",
+        "file": "Group (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\bg\\bg_select_level.png",
+        "name": "Group (1).png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite12.png",
+        "file": "Group (2).png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
+        "metadata": "",
+        "name": "Group (2).png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/bg_select_level_board.png",
+        "file": "Group.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\bg_select_level_board.png",
+        "name": "Group.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_1_lock@2x.png",
+        "file": "Group 729.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/level/level_1_lock@2x.png\",\"extension\":\".png\"}",
-        "name": "assets\\level\\level_1_lock@2x.png",
+        "metadata": "",
+        "name": "Group 729.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_1_unlock@2x.png",
+        "file": "Group 730.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_1_unlock@2x.png",
+        "name": "Group 730.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_2_lock@2x.png",
+        "file": "Group 733.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_2_lock@2x.png",
+        "name": "Group 733.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_2_unlock@2x.png",
+        "file": "Group 734.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_2_unlock@2x.png",
+        "name": "Group 734.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_3_lock@2x.png",
+        "file": "Group 738.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_3_lock@2x.png",
+        "name": "Group 738.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_3_unlock@2x.png",
+        "file": "Group 739.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_3_unlock@2x.png",
+        "name": "Group 739.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "assets/level/level_1_lock.png",
+        "file": "1 (2).png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\level\\level_1_lock.png",
+        "name": "1 (2).png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/level/level_1_unlock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\level\\level_1_unlock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/level/level_2_lock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\level\\level_2_lock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/level/level_2_unlock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\level\\level_2_unlock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/level/level_3_lock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\level\\level_3_lock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/level/level_3_unlock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\level\\level_3_unlock.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/gembok.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gembok.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/music and sound/bgm/menu bgm - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\bgm\\menu bgm - maestro melodi.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/music and sound/bgm/hutan gameplay bgm - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\bgm\\hutan gameplay bgm - maestro melodi.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -1836,7 +1768,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.05,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -3113,6 +3045,40 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TransisiLoading",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3158,6 +3124,9 @@
       },
       {
         "objectName": "correct_and_incorrrect_layer"
+      },
+      {
+        "objectName": "TransisiLoading"
       }
     ]
   },
@@ -3241,7 +3210,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/select_level"
+      "referenceTo": "/layouts/level-menu"
     }
   ],
   "externalEvents": [
@@ -3281,7 +3250,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": [

@@ -20,7 +20,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
+<<<<<<< HEAD
     "zoomFactor": 0.7876290101673755,
+=======
+    "zoomFactor": 0.546875,
+>>>>>>> 3eba60f680299d15bf4dcd4e76725b59e8d45cf1
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -50,10 +54,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "title",
+      "opacity": 0,
       "persistentUuid": "cd195f55-5133-40e7-b9ef-ac4b5c19611f",
       "width": 0,
-      "x": 114,
-      "y": 37,
+      "x": 115,
+      "y": -150,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,8 +73,8 @@
       "name": "start",
       "persistentUuid": "904f45de-9930-48f5-b8db-d98451392a4b",
       "width": 0,
-      "x": 734,
-      "y": 272,
+      "x": 1300,
+      "y": 275,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,9 +89,89 @@
       "name": "setting_button",
       "persistentUuid": "7444ff35-eb72-442e-8899-6c09a303c6e6",
       "width": 0,
-      "x": 706,
-      "y": 437,
+      "x": 1300,
+      "y": 440,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NoteAnimasiAwal",
+      "persistentUuid": "955eac8a-d0d1-4590-993a-55ce2d806ee6",
+      "width": 0,
+      "x": 365,
+      "y": 260,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NoteAnimasiAwal",
+      "persistentUuid": "403c840b-23b7-4a75-a71b-eb01661ea133",
+      "width": 0,
+      "x": 580,
+      "y": 240,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NoteAnimasiAwal",
+      "persistentUuid": "e6f2fdc6-e349-4b06-b3f2-5b6c7b03ddaa",
+      "width": 0,
+      "x": 450,
+      "y": 295,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TransisiLoading",
+      "persistentUuid": "ed5598d7-1261-45f2-86e4-5edfa2f111fc",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -161,7 +246,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -239,7 +329,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.05,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -329,7 +419,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.05,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -392,6 +482,167 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NoteAnimasiAwal",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 81
+                      },
+                      {
+                        "x": 39,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 81
+                      },
+                      {
+                        "x": 39,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 11
+                      },
+                      {
+                        "x": 84,
+                        "y": 81
+                      },
+                      {
+                        "x": 39,
+                        "y": 81
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -413,6 +664,9 @@
       },
       {
         "objectName": "title"
+      },
+      {
+        "objectName": "NoteAnimasiAwal"
       }
     ]
   },
@@ -440,6 +694,182 @@
             "0",
             "0",
             "0\n"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "title",
+            "Tween",
+            "\"Masuk\"",
+            "30",
+            "\"elastic\"",
+            "4",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "start",
+            "Tween",
+            "\"Masuk\"",
+            "735",
+            "\"easeOutQuad\"",
+            "0.65",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "setting_button",
+            "Tween",
+            "\"Masuk\"",
+            "707",
+            "\"easeOutQuad\"",
+            "0.75",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::IsPlaying"
+          },
+          "parameters": [
+            "title",
+            "Tween",
+            "\"Masuk\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "title",
+            "Tween",
+            "\"Muncul\"",
+            "255",
+            "\"bounce\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "start",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "loading_target",
+            "=",
+            "\"Level Menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "TransisiLoading",
+            "FlashTransitionPainter",
+            "\"252;203;184\"",
+            "0.5",
+            "\"Flash\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "TransisiLoading",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"loading_scene\"",
+            ""
           ]
         }
       ]
@@ -633,6 +1063,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Flippable",

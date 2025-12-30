@@ -1,11 +1,11 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "loading_95scene",
-  "name": "loading_scene",
+  "mangledName": "Level_32Menu",
+  "name": "Level Menu",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210174,
+    "zoomFactor": 0.546875,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -33,8 +33,8 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "bg_loading",
-      "persistentUuid": "d3cd1ed6-df66-4437-a80c-ad2f43658f66",
+      "name": "Background",
+      "persistentUuid": "04bde429-befd-4409-874d-3e5ada7b51f9",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -49,11 +49,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "memuat_text",
-      "persistentUuid": "fb304730-26d7-42e5-a0a2-c239f5bdf4f9",
+      "name": "Level_Board",
+      "persistentUuid": "a2668c85-6790-45dd-977d-4706f47336c8",
       "width": 0,
-      "x": 497,
-      "y": 424,
+      "x": 105,
+      "y": -600,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,14 +65,55 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "burung_loading",
-      "opacity": 0,
-      "persistentUuid": "4def11f3-727f-48e3-9969-680df9306a45",
+      "name": "Level_Button",
+      "persistentUuid": "1763cf71-17bc-4344-aa6d-991c0e5428bf",
       "width": 0,
-      "x": 517,
-      "y": 281,
+      "x": 245,
+      "y": -315,
       "zOrder": 3,
       "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_Button",
+      "persistentUuid": "93d6cbb8-9fad-41b3-bc04-d6a81bee5927",
+      "width": 0,
+      "x": 535,
+      "y": -315,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Level_Button",
+      "persistentUuid": "6d72885a-e209-4905-bd9d-3a2df4fcfa75",
+      "width": 0,
+      "x": 835,
+      "y": -315,
+      "zOrder": 5,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -81,13 +122,14 @@
       "customSize": true,
       "depth": 0,
       "height": 720,
+      "keepRatio": true,
       "layer": "",
       "name": "TransisiLoading",
-      "persistentUuid": "d0c48dd8-a41b-4e35-b9c3-cee3a1023ead",
+      "persistentUuid": "ff1321d6-8038-4bec-87d7-1dd062824072",
       "width": 1280,
       "x": 0,
       "y": 0,
-      "zOrder": 4,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -97,7 +139,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "bg_loading",
+      "name": "Background",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -114,7 +156,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\bg\\bg_loading.png",
+                  "image": "Group 729.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -155,62 +197,9 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "memuat_text",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "AutoTyping",
-          "type": "AutoTyping::AutoTyping",
-          "Text": "Text",
-          "Interval": 0.25,
-          "CharacterJustAdded": false,
-          "FullText": "",
-          "TypedText": ""
-        }
-      ],
-      "string": "Memuat...",
-      "font": "assets\\happy_school\\Happy School.ttf",
-      "textAlignment": "left",
-      "characterSize": 64,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Memuat...",
-        "font": "assets\\happy_school\\Happy School.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 64,
-        "lineHeight": 0,
-        "color": "255;255;255"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "burung_loading",
+      "name": "Level_Board",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -223,16 +212,16 @@
       ],
       "animations": [
         {
-          "name": "Frame",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.2,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\burung_loading\\Frame 18.png",
+                  "image": "Group 730.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -249,26 +238,80 @@
                     [
                       {
                         "x": 0,
-                        "y": 30
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 30
+                        "x": 1066,
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 105
+                        "x": 1066,
+                        "y": 593
                       },
                       {
                         "x": 0,
-                        "y": 105
+                        "y": 593
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level_Button",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween",
+          "Scale": "Scale",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleScale": 1,
+          "FocusedScale": 1.025,
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "PressedScale": 0.95,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Unlock1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\burung_loading\\Group.png",
+                  "image": "1 (2).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -285,26 +328,38 @@
                     [
                       {
                         "x": 0,
-                        "y": 30
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 30
+                        "x": 207,
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 105
+                        "x": 207,
+                        "y": 197
                       },
                       {
                         "x": 0,
-                        "y": 105
+                        "y": 197
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lock2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\burung_loading\\Group-1.png",
+                  "image": "Group 739.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -321,19 +376,163 @@
                     [
                       {
                         "x": 0,
-                        "y": 30
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 30
+                        "x": 207,
+                        "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 105
+                        "x": 207,
+                        "y": 197
                       },
                       {
                         "x": 0,
-                        "y": 105
+                        "y": 197
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unlock2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 733.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 197
+                      },
+                      {
+                        "x": 0,
+                        "y": 197
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lock3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 738.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 197
+                      },
+                      {
+                        "x": 0,
+                        "y": 197
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unlock3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 734.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 0
+                      },
+                      {
+                        "x": 207,
+                        "y": 197
+                      },
+                      {
+                        "x": 0,
+                        "y": 197
                       }
                     ]
                   ]
@@ -349,13 +548,13 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "bg_loading"
+        "objectName": "Background"
       },
       {
-        "objectName": "memuat_text"
+        "objectName": "Level_Board"
       },
       {
-        "objectName": "burung_loading"
+        "objectName": "Level_Button"
       }
     ]
   },
@@ -370,34 +569,9 @@
           "parameters": [
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PrioritizeLoadingOfScene"
-          },
-          "parameters": [
-            "TransisiKe___",
-            "loading_target"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "memuat_text",
-            "AutoTyping",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
@@ -406,7 +580,7 @@
             "TransisiLoading",
             "FlashTransitionPainter",
             "\"252;203;184\"",
-            "0.5",
+            "1.5",
             "\"Flash\"",
             "\"Backward\"",
             "",
@@ -415,115 +589,29 @@
         },
         {
           "type": {
-            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
-            "burung_loading",
+            "Level_Board",
             "Tween",
-            "\"Muncul\"",
-            "255",
-            "\"linear\"",
-            "2",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
-          },
-          "parameters": [
-            "TransisiLoading",
-            "FlashTransitionPainter",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "memuat_text",
-            "AutoTyping",
-            "yes"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "AreSceneAssetsLoaded"
-          },
-          "parameters": [
-            "",
-            "loading_target"
-          ]
-        },
-        {
-          "type": {
-            "value": "AutoTyping::AutoTyping::IsFinished"
-          },
-          "parameters": [
-            "memuat_text",
-            "AutoTyping",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-          },
-          "parameters": [
-            "burung_loading",
-            "Tween",
-            "\"Keluar\"",
-            "1500",
-            "-135",
-            "\"linear\"",
+            "\"Masuk\"",
+            "65",
+            "\"easeOutQuint\"",
             "1",
             ""
           ]
         },
         {
           "type": {
-            "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
-            "burung_loading",
+            "Level_Button",
             "Tween",
-            "\"Miring\"",
-            "-15",
-            "\"linear\"",
-            "0.5",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "loading_target",
+            "\"Masuk\"",
+            "350",
+            "\"easeOutQuint\"",
+            "1",
             ""
           ]
         }
@@ -603,10 +691,6 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "AutoTyping",
-      "type": "AutoTyping::AutoTyping"
-    },
-    {
       "name": "ButtonFSM",
       "type": "ButtonStates::ButtonFSM"
     },
@@ -637,10 +721,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",
