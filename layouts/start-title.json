@@ -832,6 +832,29 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\music and sound\\sfx\\button play - maestro melodi.wav",
+            "0",
+            "",
+            "setting_var.sound",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "start",
+            "ButtonFSM",
+            ""
+          ]
         }
       ]
     },

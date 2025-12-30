@@ -874,6 +874,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/sfx/button play - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button play - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/sfx/button setting di menu - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button setting di menu - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/sfx/button X di setting - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },

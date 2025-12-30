@@ -157,6 +157,41 @@
             "ButtonFSM",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\music and sound\\sfx\\button setting di menu - maestro melod.wav",
+            "0",
+            "",
+            "setting_var.sound",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "music",
+            "=",
+            "setting_var.music",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "sound",
+            "=",
+            "setting_var.sound",
+            ""
+          ]
         }
       ]
     },
@@ -175,6 +210,19 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
+            "0",
+            "",
+            "setting_var.sound",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
@@ -287,7 +335,7 @@
             "",
             "0",
             "=",
-            "sound.Value()"
+            "setting_var.sound"
           ]
         },
         {
@@ -298,7 +346,7 @@
             "",
             "1",
             "=",
-            "sound.Value()"
+            "setting_var.sound"
           ]
         },
         {
@@ -309,7 +357,7 @@
             "",
             "2",
             "=",
-            "sound.Value()"
+            "setting_var.sound"
           ]
         },
         {
@@ -321,6 +369,120 @@
             "0",
             "=",
             "setting_var.music"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "setting_var.music"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "setting_var.music"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "music",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "setting_var.music",
+            "=",
+            "music.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "\"music value: \"+setting_var.music",
+            "\"info\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "\"========================================================================================\"",
+            "\"info\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "sound",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "setting_var.sound",
+            "=",
+            "sound.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "\"sound value: \"+setting_var.sound",
+            "\"info\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "\"========================================================================================\"",
+            "\"info\"",
+            ""
           ]
         }
       ]
