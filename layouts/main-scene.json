@@ -20,14 +20,14 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311479,
+    "zoomFactor": 0.4057518905943825,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [
     {
-      "name": "sound_var",
+      "name": "sound",
       "type": "array",
       "children": [
         {
@@ -1142,7 +1142,7 @@
           },
           "parameters": [
             "",
-            "sound_var",
+            "sound",
             ""
           ]
         },
@@ -1216,7 +1216,7 @@
                     "slot",
                     "correct_answer",
                     "=",
-                    "sound_var[index]"
+                    "sound[index]"
                   ]
                 },
                 {
@@ -1277,7 +1277,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound_var[Variable]",
+                "sound[Variable]",
                 "=",
                 "0"
               ]
@@ -1307,7 +1307,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound_var[Variable]",
+                "sound[Variable]",
                 "=",
                 "1"
               ]
@@ -1337,7 +1337,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound_var[Variable]",
+                "sound[Variable]",
                 "=",
                 "2"
               ]
@@ -1367,7 +1367,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "sound_var[Variable]",
+                "sound[Variable]",
                 "=",
                 "3"
               ]

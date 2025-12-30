@@ -20,11 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-<<<<<<< HEAD
-    "zoomFactor": 0.7876290101673755,
-=======
     "zoomFactor": 0.546875,
->>>>>>> 3eba60f680299d15bf4dcd4e76725b59e8d45cf1
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -887,43 +883,6 @@
         "includeConfig": 0
       },
       "target": "music_menu"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "start",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringVariable"
-          },
-          "parameters": [
-            "loading_target",
-            "=",
-            "\"level_1\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"loading_scene\"",
-            ""
-          ]
-        }
-      ]
     }
   ],
   "layers": [

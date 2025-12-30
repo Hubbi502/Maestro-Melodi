@@ -1,9 +1,9 @@
 {
   "firstLayout": "start-title",
   "gdVersion": {
-    "build": 248,
+    "build": 251,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -843,6 +843,36 @@
         "metadata": "",
         "name": "1 (2).png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/hutan gameplay bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\hutan gameplay bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/danau gameplay bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\danau gameplay bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/menu bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\menu bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -3176,11 +3206,6 @@
       "name": "loading_target",
       "type": "string",
       "value": ""
-    },
-    {
-      "name": "level_unlock",
-      "type": "number",
-      "value": 1
     }
   ],
   "layouts": [
@@ -3224,15 +3249,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/music_menu"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music_gameplay_1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music_gameplay_2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_menu"
     }
   ],
   "eventsFunctionsExtensions": [

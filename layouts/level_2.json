@@ -1107,18 +1107,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "correct_counter",
-                "+",
-                "1"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1169,6 +1158,34 @@
                     "0",
                     "\"linear\"",
                     "0.3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "loading_target",
+                    "=",
+                    "\"level_2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"loading_scene\"",
                     ""
                   ]
                 }
@@ -1290,125 +1307,23 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "music_gameplay_1"
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
       "target": "setting_gameplay"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "draggable_click",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "correct_counter",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"bener semua\"",
-                "\"info\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "correct_counter",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"salah semua\"",
-                "\"info\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.3"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "correct_counter",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "draggable_click",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        }
-      ]
     }
   ],
   "layers": [

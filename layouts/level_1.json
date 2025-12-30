@@ -1013,6 +1013,13 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "music_gameplay_1"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "setting_gameplay"
     },
     {

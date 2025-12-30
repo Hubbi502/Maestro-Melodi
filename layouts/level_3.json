@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690408,
+    "zoomFactor": 0.47893418845352526,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -1411,6 +1411,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "music_gameplay_2"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
