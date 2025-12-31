@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level_951",
-  "name": "level_1",
+  "mangledName": "level_953",
+  "name": "level_3",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -20,14 +20,14 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126316,
+    "zoomFactor": 0.47893418845352526,
     "windowMask": false,
     "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [
     {
-      "name": "sound_var",
+      "name": "sound",
       "type": "array",
       "children": [
         {
@@ -41,115 +41,30 @@
         {
           "type": "number",
           "value": 2
+        },
+        {
+          "type": "number",
+          "value": 3
         }
       ]
     },
     {
-      "name": "angka_pilihan",
+      "name": "note_pick",
       "type": "number",
       "value": 0
     },
     {
-      "name": "counter",
+      "name": "array_to_store_answer",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "number_pick",
       "type": "number",
       "value": 0
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 105,
-      "keepRatio": true,
-      "layer": "",
-      "name": "draggable",
-      "persistentUuid": "f3b47bb3-c2d7-43a9-8885-b27fe19943ea",
-      "width": 120,
-      "x": 202,
-      "y": 506,
-      "zOrder": 52,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "angle": 10,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "layer": "",
-      "name": "draggable",
-      "persistentUuid": "1e98f979-cb70-4153-8142-ec6cb89e5795",
-      "width": 118.0416,
-      "x": 1046,
-      "y": 385,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 95.93,
-      "keepRatio": true,
-      "layer": "",
-      "name": "draggable",
-      "persistentUuid": "24adb49e-dc6a-4412-bc2e-471b56432ca5",
-      "width": 109.94224719101125,
-      "x": 144,
-      "y": 368,
-      "zOrder": 52,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "id",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "slot",
-      "persistentUuid": "a1b3409f-0a40-463c-912d-3cf3bb855efa",
-      "width": 0,
-      "x": 515,
-      "y": 523,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -172,12 +87,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "default_position",
-      "opacity": 0,
-      "persistentUuid": "3fbfd326-922e-400d-87ee-90e87e732b0b",
+      "name": "bg_nada",
+      "persistentUuid": "d8a91267-e94b-48ff-a149-b1c117bd60a9",
       "width": 0,
-      "x": 1046,
-      "y": 385,
+      "x": 293.55,
+      "y": 348.87,
       "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,20 +103,29 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "default_position",
-      "opacity": 0,
-      "persistentUuid": "3c3ab0aa-6f2c-47ce-a11c-ff71c1d84c3e",
+      "name": "musical_note",
+      "persistentUuid": "f0cb7691-d691-4eac-8e9e-2f3a57a37065",
       "width": 0,
-      "x": 144,
-      "y": 368,
+      "x": 312,
+      "y": 301,
       "zOrder": 103,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "id",
+          "name": "index",
           "type": "number",
-          "value": 2
+          "value": 1
+        },
+        {
+          "name": "is_draggable",
+          "type": "boolean",
+          "value": false
         }
       ]
     },
@@ -212,13 +135,178 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "default_position",
-      "opacity": 0,
-      "persistentUuid": "9a8af8e1-f288-48e9-9272-08530253a868",
+      "name": "musical_note",
+      "persistentUuid": "92797c31-eb94-4c28-9187-71bd6fd39a9e",
       "width": 0,
-      "x": 202,
-      "y": 506,
-      "zOrder": 103,
+      "x": 524,
+      "y": 300,
+      "zOrder": 104,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "index",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "is_draggable",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "musical_note",
+      "persistentUuid": "ecf4cbef-afc2-48d3-91a1-d7002b4f792d",
+      "width": 0,
+      "x": 714,
+      "y": 303,
+      "zOrder": 105,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "index",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "name": "is_draggable",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "musical_note",
+      "persistentUuid": "58fdb397-53ce-4e99-8e33-b87feb5b8d19",
+      "width": 0,
+      "x": 887,
+      "y": 290,
+      "zOrder": 106,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "index",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "name": "is_draggable",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot",
+      "persistentUuid": "3f00b39d-edd5-4e6a-ba23-df94fccce87e",
+      "width": 0,
+      "x": 301.58,
+      "y": 535.62,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot",
+      "persistentUuid": "aaece3d1-6631-4cda-8a5b-532a2c3f61a5",
+      "width": 0,
+      "x": 581,
+      "y": 535.62,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot",
+      "persistentUuid": "ee9efc86-b519-4e88-bf3f-f1319c14a6e2",
+      "width": 0,
+      "x": 854,
+      "y": 535.62,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spawner",
+      "persistentUuid": "57ba8d2d-8c18-4560-b402-60383d97562e",
+      "width": 0,
+      "x": 374,
+      "y": 602,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spawner",
+      "persistentUuid": "7754948c-d0dd-473a-a339-af2a1f5fc098",
+      "width": 0,
+      "x": 653,
+      "y": 600,
+      "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -235,12 +323,146 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+      "name": "spawner",
+      "persistentUuid": "0b4643d6-8c62-45eb-8fbc-2690907e7c87",
+      "width": 0,
+      "x": 925,
+      "y": 601,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot_obj",
+      "persistentUuid": "a0e902ad-a7f4-4141-b3cd-3bbaaad0429d",
+      "width": 97,
+      "x": 311,
+      "y": 300,
+      "zOrder": 111,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot_obj",
+      "persistentUuid": "a9e79cb1-b9cb-49a8-a829-7520055890f3",
+      "width": 97,
+      "x": 503,
+      "y": 295,
+      "zOrder": 111,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot_obj",
+      "persistentUuid": "4f543d97-18e3-415f-8b9e-7e79bfe729e4",
+      "width": 97,
+      "x": 727,
+      "y": 295,
+      "zOrder": 111,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "keepRatio": true,
+      "layer": "",
+      "name": "slot_obj",
+      "persistentUuid": "cdbe6692-11d9-491a-ba7c-0cd7e2a8520b",
+      "width": 97,
+      "x": 898,
+      "y": 305,
+      "zOrder": 111,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
       "name": "setting_button_gameplay",
-      "persistentUuid": "3b0ca386-4cbc-4fd9-9d68-340bc1dbe4ac",
+      "persistentUuid": "e3722e32-fb5a-47bb-b5e9-e4fa1e84587a",
       "width": 0,
       "x": 1206,
-      "y": 3,
-      "zOrder": 104,
+      "y": 6,
+      "zOrder": 112,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -566,7 +788,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "default_position",
+      "name": "spawner",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -633,165 +855,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "decider",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "default",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "default4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 256
-                      },
-                      {
-                        "x": 0,
-                        "y": 256
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "benar",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "default",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 256
-                      },
-                      {
-                        "x": 0,
-                        "y": 256
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "salah",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "salah",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 0
-                      },
-                      {
-                        "x": 256,
-                        "y": 256
-                      },
-                      {
-                        "x": 0,
-                        "y": 256
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "bg_hutan",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -809,7 +872,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\bg\\BG_hutan.png",
+                  "image": "assets\\bg\\bg_hutan_with_pond.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -842,6 +905,119 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_nada",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\bg_nada.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 730,
+                        "y": 0
+                      },
+                      {
+                        "x": 730,
+                        "y": 107
+                      },
+                      {
+                        "x": 0,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "slot_obj",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "slot_correct",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -877,13 +1053,16 @@
         "objectName": "slot"
       },
       {
-        "objectName": "decider"
-      },
-      {
         "objectName": "bg_hutan"
       },
       {
-        "objectName": "default_position"
+        "objectName": "bg_nada"
+      },
+      {
+        "objectName": "spawner"
+      },
+      {
+        "objectName": "slot_obj"
       }
     ]
   },
@@ -903,95 +1082,12 @@
       "actions": [
         {
           "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"correct and incorrect\"",
-            "0",
-            "0",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "angka_pilihan",
+            "note_pick",
             "=",
-            "sound_var[RandomInRange(0,2)]"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.5"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "draggable",
-                "id",
-                "=",
-                "angka_pilihan"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "draggable",
-                "Animation",
-                "=",
-                "draggable.Animation::Index() + 3"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"sound counter\""
+            "RandomInRange(1,4)"
           ]
         },
         {
@@ -1004,6 +1100,314 @@
             "0",
             "0",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"correct and incorrect\"",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "musical_note",
+                "is_draggable",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "musical_note",
+                "Draggable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "musical_note",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "musical_note",
+                "is_draggable",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "index",
+                    "=",
+                    "note_pick"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "musical_note"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "number_pick",
+                    "=",
+                    "musical_note.index"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushNumber"
+                  },
+                  "parameters": [
+                    "array_to_store_answer",
+                    "number_pick-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushNumber"
+                  },
+                  "parameters": [
+                    "array_to_store_answer",
+                    "number_pick"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushNumber"
+                  },
+                  "parameters": [
+                    "array_to_store_answer",
+                    "number_pick+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ArrayTools::Shuffle"
+                  },
+                  "parameters": [
+                    "",
+                    "array_to_store_answer",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "spawner",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "musical_note",
+                    "spawner.X()",
+                    "spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "Scale",
+                    "=",
+                    "0.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "=",
+                    "spawner.CenterX()",
+                    "=",
+                    "spawner.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "Animation",
+                    "=",
+                    "array_to_store_answer[index]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "index",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "index",
+                    "=",
+                    "index"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "index",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "musical_note",
+                "is_draggable",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "Animation",
+                    "=",
+                    "number_pick"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "is_correct_answer",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "slot_obj",
+                "id",
+                "=",
+                "note_pick"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "slot_obj",
+                "slot_correct",
+                "True",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -1020,31 +1424,13 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "BooleanObjectVariable"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"sound counter\"",
-                ">=",
-                "1.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "counter",
-                "<",
-                "3"
-              ]
-            }
+          "parameters": [
+            "musical_note",
+            "is_draggable",
+            "True",
+            ""
           ]
         }
       ],
@@ -1055,127 +1441,293 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "DraggableBehavior::Dropped"
               },
               "parameters": [
-                "sound_var[counter]",
-                "=",
-                "0"
+                "musical_note",
+                "Draggable"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\test_audio\\A.mp3",
-                "0",
-                "",
-                "setting_var.sound",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "sound_var[counter]",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\test_audio\\I.mp3",
-                "0",
-                "",
-                "setting_var.sound",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "sound_var[counter]",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "assets\\test_audio\\O.mp3",
-                "0",
-                "",
-                "setting_var.sound",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"sound counter\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "slot_obj",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "musical_note",
+                            "is_correct_answer",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "slot_obj",
+                            "slot_correct",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "correct_and_incorrrect_layer",
+                            "Animation",
+                            "=",
+                            "\"correct\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "correct_and_incorrrect_layer",
+                            "Tween",
+                            "\"go show\"",
+                            "120",
+                            "\"linear\"",
+                            "0.3",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "correct_and_incorrrect_layer",
+                            "Tween",
+                            "\"go hide\"",
+                            "0",
+                            "\"linear\"",
+                            "0.3",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "loading_target",
+                            "=",
+                            "\"start-title\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"loading_scene\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "musical_note",
+                            "is_correct_answer",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "slot_obj",
+                            "slot_correct",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "musical_note",
+                        "Scale",
+                        "=",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "musical_note",
+                        "=",
+                        "spawner.CenterX()",
+                        "=",
+                        "spawner.CenterY()"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "counter",
-                "+",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "slot_obj",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "musical_note",
+                    "Scale",
+                    "=",
+                    "0.7"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "spawner",
+                        "id",
+                        "=",
+                        "musical_note.index -1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "musical_note",
+                        "=",
+                        "spawner.CenterX()",
+                        "=",
+                        "spawner.CenterY()"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "drop_logic",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1184,514 +1736,26 @@
                 "value": "DraggableBehavior::Dragged"
               },
               "parameters": [
-                "draggable",
+                "musical_note",
                 "Draggable"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "RotateTowardAngle"
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
-                "draggable",
-                "0",
-                "0",
-                ""
+                "musical_note",
+                "Scale",
+                "=",
+                "1"
               ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_merah_diam\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_merah_bergerak\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\test_audio\\A.mp3",
-                    "0",
-                    "",
-                    "setting_var.sound",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_hijau_diam\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_hijau_bergerak\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\test_audio\\I.mp3",
-                    "0",
-                    "",
-                    "setting_var.sound",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_coklat_diam\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "Animation",
-                        "=",
-                        "\"burung_coklat_bergerak\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\test_audio\\O.mp3",
-                    "0",
-                    "",
-                    "setting_var.sound",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DraggableBehavior::Dropped"
-              },
-              "parameters": [
-                "draggable",
-                "Draggable"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "collision",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "slot",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "draggable",
-                            "id",
-                            "=",
-                            "angka_pilihan"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Animation",
-                                "=",
-                                "\"correct\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Tween",
-                                "\"go show\"",
-                                "120",
-                                "\"linear\"",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.8"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Tween",
-                                "\"go hide\"",
-                                "0",
-                                "\"linear\"",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetStringVariable"
-                              },
-                              "parameters": [
-                                "loading_target",
-                                "=",
-                                "\"level_2\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Scene"
-                              },
-                              "parameters": [
-                                "",
-                                "\"loading_scene\"",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "draggable",
-                            "id",
-                            "=",
-                            "angka_pilihan"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"salah\"",
-                            "\"info\"",
-                            ""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Animation",
-                                "=",
-                                "\"incorrect\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Tween",
-                                "\"go show\"",
-                                "120",
-                                "\"linear\"",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.8"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                              },
-                              "parameters": [
-                                "correct_and_incorrrect_layer",
-                                "Tween",
-                                "\"go hide\"",
-                                "0",
-                                "\"linear\"",
-                                "0.3",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "doesn't collision",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "draggable",
-                        "slot",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "default_position",
-                            "id",
-                            "=",
-                            "draggable.id"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "MettreXY"
-                          },
-                          "parameters": [
-                            "draggable",
-                            "=",
-                            "default_position.X()",
-                            "=",
-                            "default_position.Y()"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
-                                "draggable",
-                                "Animation",
-                                "=",
-                                "\"burung_merah_diam\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "RotateTowardAngle"
-                              },
-                              "parameters": [
-                                "draggable",
-                                "10",
-                                "0",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     }
   ],
   "layers": [
@@ -1826,7 +1890,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "correct and incorrect",
+      "name": "setting",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1880,7 +1944,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "setting",
+      "name": "correct and incorrect",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

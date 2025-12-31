@@ -1,0 +1,329 @@
+{
+  "associatedLayout": "start-title",
+  "name": "setting_menu",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "setting",
+            "=",
+            "setting.X()+1280"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "dark_screen",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "music",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "sound",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "cancel",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "setting_button",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "setting",
+            "Tween",
+            "\"go left\"",
+            "setting.X() - 1280",
+            "\"easeOutQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "dark_screen",
+            "Opacity",
+            "=",
+            "125"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "music",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "sound",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "cancel",
+            "ButtonFSM",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "setting_button",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "start",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "cancel",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "setting",
+            "Tween",
+            "\"go right\"",
+            "setting.X() + 1280",
+            "\"easeInQuad\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "music",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::Activate"
+          },
+          "parameters": [
+            "sound",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "cancel",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "setting",
+            "Tween",
+            "\"go right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "dark_screen",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "setting_button",
+            "ButtonFSM",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "start",
+            "ButtonFSM",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "0",
+            "=",
+            "sound.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "sound.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "sound.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0",
+            "=",
+            "setting_var.music"
+          ]
+        }
+      ]
+    }
+  ]
+}

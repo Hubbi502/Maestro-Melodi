@@ -104,6 +104,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "setting",
+      "name": "cancel",
+      "persistentUuid": "b960ca6a-3ee0-48d5-9573-b6c49acddb8e",
+      "width": 0,
+      "x": 974.91,
+      "y": 16,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -118,7 +134,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9296874999999996,
+    "zoomFactor": 0.6455105703311478,
     "windowMask": false,
     "selectedLayer": ""
   }

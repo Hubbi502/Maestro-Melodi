@@ -97,7 +97,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "draggable",
+      "name": "draggable_debug",
       "persistentUuid": "f3b47bb3-c2d7-43a9-8885-b27fe19943ea",
       "width": 0,
       "x": 458,
@@ -124,7 +124,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "draggable",
+      "name": "draggable_debug",
       "persistentUuid": "1e98f979-cb70-4153-8142-ec6cb89e5795",
       "width": 0,
       "x": 232,
@@ -146,7 +146,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "draggable",
+      "name": "draggable_debug",
       "persistentUuid": "24adb49e-dc6a-4412-bc2e-471b56432ca5",
       "width": 0,
       "x": 711,
@@ -168,7 +168,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "draggable",
+      "name": "draggable_debug",
       "persistentUuid": "a03a9553-ec90-4857-aad0-18d4cfd223f6",
       "width": 0,
       "x": 870,
@@ -493,7 +493,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "draggable",
+      "name": "draggable_debug",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1061,7 +1061,7 @@
         "objectName": "play_sound_button"
       },
       {
-        "objectName": "draggable"
+        "objectName": "draggable_debug"
       },
       {
         "objectName": "slot"
@@ -1073,6 +1073,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1088,7 +1089,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "draggable",
+          "object": "draggable_debug",
           "conditions": [
             {
               "type": {
@@ -1098,7 +1099,7 @@
                 "default_position",
                 "id",
                 "=",
-                "draggable.id"
+                "draggable_debug.id"
               ]
             }
           ],
@@ -1108,7 +1109,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "=",
                 "default_position.X()",
                 "=",
@@ -1120,6 +1121,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1167,7 +1169,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "draggable",
+          "object": "draggable_debug",
           "conditions": [
             {
               "type": {
@@ -1177,7 +1179,7 @@
                 "default_position",
                 "id",
                 "=",
-                "draggable.id"
+                "draggable_debug.id"
               ]
             }
           ],
@@ -1187,7 +1189,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "=",
                 "default_position.X()",
                 "=",
@@ -1291,7 +1293,7 @@
                 "assets\\test_audio\\A.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1321,7 +1323,7 @@
                 "assets\\test_audio\\I.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1351,7 +1353,7 @@
                 "assets\\test_audio\\U.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1381,7 +1383,7 @@
                 "assets\\test_audio\\O.mp3",
                 "0",
                 "",
-                "setting.sound",
+                "setting_var.sound",
                 "1"
               ]
             }
@@ -1516,7 +1518,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "id",
                 "=",
                 "0"
@@ -1531,9 +1533,9 @@
               "parameters": [
                 "Text_A",
                 "=",
-                "draggable.CenterX()",
+                "draggable_debug.CenterX()",
                 "=",
-                "draggable.CenterY()"
+                "draggable_debug.CenterY()"
               ]
             }
           ]
@@ -1546,7 +1548,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "id",
                 "=",
                 "1"
@@ -1561,9 +1563,9 @@
               "parameters": [
                 "Text_I",
                 "=",
-                "draggable.CenterX()",
+                "draggable_debug.CenterX()",
                 "=",
-                "draggable.CenterY()"
+                "draggable_debug.CenterY()"
               ]
             }
           ]
@@ -1576,7 +1578,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "id",
                 "=",
                 "2"
@@ -1591,9 +1593,9 @@
               "parameters": [
                 "Text_U",
                 "=",
-                "draggable.CenterX()",
+                "draggable_debug.CenterX()",
                 "=",
-                "draggable.CenterY()"
+                "draggable_debug.CenterY()"
               ]
             }
           ]
@@ -1606,7 +1608,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "id",
                 "=",
                 "3"
@@ -1621,9 +1623,9 @@
               "parameters": [
                 "Text_O",
                 "=",
-                "draggable.CenterX()",
+                "draggable_debug.CenterX()",
                 "=",
-                "draggable.CenterY()"
+                "draggable_debug.CenterY()"
               ]
             }
           ]
@@ -1648,7 +1650,7 @@
                 "value": "DraggableBehavior::Dropped"
               },
               "parameters": [
-                "draggable",
+                "draggable_debug",
                 "Draggable"
               ]
             },
@@ -1672,7 +1674,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "draggable",
+                    "draggable_debug",
                     "slot",
                     "",
                     "",
@@ -1701,7 +1703,7 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "draggable",
+                        "draggable_debug",
                         "id",
                         "=",
                         "slot.correct_answer"
@@ -1732,7 +1734,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "draggable",
+                    "draggable_debug",
                     "slot",
                     "",
                     "",
@@ -1753,7 +1755,7 @@
                         "default_position",
                         "id",
                         "=",
-                        "draggable.id"
+                        "draggable_debug.id"
                       ]
                     }
                   ],
@@ -1763,7 +1765,7 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "draggable",
+                        "draggable_debug",
                         "=",
                         "default_position.X()",
                         "=",
@@ -1878,7 +1880,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "draggable",
+                  "object": "draggable_debug",
                   "conditions": [
                     {
                       "type": {
@@ -1888,7 +1890,7 @@
                         "default_position",
                         "id",
                         "=",
-                        "draggable.id"
+                        "draggable_debug.id"
                       ]
                     }
                   ],
@@ -1898,7 +1900,7 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "draggable",
+                        "draggable_debug",
                         "=",
                         "default_position.X()",
                         "=",
@@ -1916,7 +1918,7 @@
                       },
                       "parameters": [
                         "",
-                        "draggable"
+                        "draggable_debug"
                       ]
                     }
                   ],
@@ -1926,7 +1928,7 @@
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
-                        "draggable",
+                        "draggable_debug",
                         "Draggable",
                         "yes"
                       ]
@@ -2018,6 +2020,10 @@
       "type": "ButtonStates::ButtonFSM"
     },
     {
+      "name": "ButtonScaleTween",
+      "type": "ButtonStates::ButtonScaleTween"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -2040,6 +2046,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

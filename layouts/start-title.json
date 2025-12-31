@@ -20,12 +20,18 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4481978045410356,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "setting"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "SettingButton_Clicked",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -81,12 +87,44 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "setting_button",
+      "name": "Button_Setting",
       "persistentUuid": "7444ff35-eb72-442e-8899-6c09a303c6e6",
       "width": 0,
       "x": 706,
       "y": 437,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "setting",
+      "name": "bg_setting",
+      "persistentUuid": "aa6e2b2e-b303-4cbf-887f-3537f90e3e72",
+      "width": 0,
+      "x": 300,
+      "y": -615,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "setting",
+      "name": "Button_X",
+      "persistentUuid": "e7bc76ed-5af8-4b52-bad8-03193b724d54",
+      "width": 0,
+      "x": 1000,
+      "y": -615,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -239,7 +277,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.025,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -306,7 +344,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "setting_button",
+      "name": "Button_Setting",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -329,7 +367,7 @@
           "ButtonFSM": "ButtonFSM",
           "Tween": "Tween",
           "IdleScale": 1,
-          "FocusedScale": 1,
+          "FocusedScale": 1.025,
           "FadeInDuration": 0.1,
           "FadeOutDuration": 0.2,
           "PressedScale": 0.95,
@@ -392,31 +430,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "music",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "music",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "ShowLabelAtChanges": false
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "sound",
-      "persistentUuid": "8e26da64-9a25-4e80-b12f-fa478a825ca1",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "sound",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "ShowLabelAtChanges": false
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -429,7 +442,7 @@
             "objectName": "start"
           },
           {
-            "objectName": "setting_button"
+            "objectName": "Button_Setting"
           }
         ]
       },
@@ -438,12 +451,6 @@
       },
       {
         "objectName": "title"
-      },
-      {
-        "objectName": "music"
-      },
-      {
-        "objectName": "sound"
       }
     ]
   },
@@ -460,6 +467,12 @@
           ]
         }
       ],
+      "actions": []
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": [
         {
           "type": {
@@ -474,6 +487,474 @@
           ]
         }
       ]
+    },
+    {
+<<<<<<< HEAD
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Setting",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Button_Setting",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Button_X",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "SettingButton_Clicked",
+                "Toggle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"Blurr\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "",
+                "\"Gelap\"",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SettingButton_Clicked",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Setting\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Setting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "SettingBoard",
+                    "Tween",
+                    "\"Masuk\"",
+                    "125",
+                    "\"easeOutQuint\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Slider_Music",
+                    "Tween",
+                    "\"Masuk\"",
+                    "290",
+                    "\"easeOutQuint\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Slider_Sound",
+                    "Tween",
+                    "\"Masuk\"",
+                    "460",
+                    "\"easeOutQuint\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Button_X",
+                    "Tween",
+                    "\"Masuk\"",
+                    "65",
+                    "\"easeOutQuint\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "button_level",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Button_Setting",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Button_Back",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Button_X",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Button_X",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "SettingBoard",
+                "Tween",
+                "\"Keluar\"",
+                "-525",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Slider_Music",
+                "Tween",
+                "\"Keluar\"",
+                "-360",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Slider_Sound",
+                "Tween",
+                "\"Keluar\"",
+                "-190",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Button_X",
+                "Tween",
+                "\"Keluar\"",
+                "-585",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "SettingButton_Clicked",
+                "Toggle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "SettingButton_Clicked",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Gelap\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blurr\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerEffectEnabled"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blurr\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Setting\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "button_level",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Button_Setting",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Button_Back",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        }
+      ],
+      "parameters": []
+=======
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "setting_menu"
+>>>>>>> 1b15bf63ebfce139ec2ad3b9438e677d7e8d6cf4
     }
   ],
   "layers": [
