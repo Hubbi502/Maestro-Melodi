@@ -1,9 +1,9 @@
 {
   "firstLayout": "start-title",
   "gdVersion": {
-    "build": 248,
+    "build": 251,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -1092,6 +1092,36 @@
         "userAdded": false
       },
       {
+        "file": "assets/music and sound/sfx/button play - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button play - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/sfx/button setting di menu - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button setting di menu - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button setting di menu - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button setting di menu - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
         "file": "button setting di gameplay - maestro melod.wav",
         "kind": "audio",
         "metadata": "",
@@ -1126,6 +1156,26 @@
         "kind": "audio",
         "metadata": "",
         "name": "pencet level yang masih kekunci - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/sfx/button X di setting - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button play - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button play - maestro melodi.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
