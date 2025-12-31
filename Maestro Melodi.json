@@ -876,9 +876,6 @@
         "userAdded": false
       },
       {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
         "file": "assets/desktop-icon-512.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
@@ -1095,66 +1092,6 @@
         "userAdded": false
       },
       {
-        "file": "button play - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "button play - maestro melodi.wav",
-=======
->>>>>>> Stashed changes
-        "file": "assets/music and sound/sfx/button play - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\sfx\\button play - maestro melodi.wav",
-<<<<<<< Updated upstream
-=======
->>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
->>>>>>> Stashed changes
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-        "file": "button geser volume - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "button geser volume - maestro melodi.wav",
-=======
->>>>>>> Stashed changes
-        "file": "assets/music and sound/sfx/button setting di menu - maestro melod.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\sfx\\button setting di menu - maestro melod.wav",
-<<<<<<< Updated upstream
-=======
->>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
->>>>>>> Stashed changes
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-<<<<<<< Updated upstream
-        "file": "assets/music and sound/sfx/button X di setting - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
-=======
-<<<<<<< HEAD
-        "file": "button setting di menu - maestro melod.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "button setting di menu - maestro melod.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "button setting di gameplay - maestro melod.wav",
         "kind": "audio",
         "metadata": "",
@@ -1189,23 +1126,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "pencet level yang masih kekunci - maestro melod.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "drop jawaban - maestro melod.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "drop jawaban - maestro melod.wav",
-=======
-        "file": "assets/music and sound/sfx/button X di setting - maestro melodi.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
->>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
->>>>>>> Stashed changes
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
