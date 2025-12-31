@@ -229,37 +229,21 @@
           },
           "parameters": [
             "",
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
             "button X di setting - maestro melodi.wav",
             "0",
             "",
             "",
-            ""
-=======
->>>>>>> Stashed changes
+            "",
             "assets\\music and sound\\sfx\\button X di setting - maestro melodi.wav",
             "0",
             "",
             "setting_var.sound",
             "1"
-<<<<<<< Updated upstream
-=======
->>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
->>>>>>> Stashed changes
           ]
         },
         {
           "type": {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-=======
->>>>>>> Stashed changes
             "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
->>>>>>> bdf773107e8e50672d0f31be9ecf3442ce20cf48
           },
           "parameters": [
             "setting",
@@ -518,8 +502,6 @@
             "\"info\"",
             ""
           ]
-<<<<<<< Updated upstream
-=======
         }
       ]
     },
@@ -588,7 +570,6 @@
             "",
             ""
           ]
->>>>>>> Stashed changes
         }
       ]
     }
