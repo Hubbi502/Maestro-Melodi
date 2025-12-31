@@ -1,0 +1,3564 @@
+{
+  "firstLayout": "start-title",
+  "gdVersion": {
+    "build": 248,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.solu.maestro_melodi",
+    "pixelsRounding": false,
+    "projectUuid": "d89de52a-837f-43ef-ae99-1b30aadaa400",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Maestro Melodi",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_audio/A.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\test_audio\\A.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_audio/I.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\test_audio\\I.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_audio/U.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\test_audio\\U.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_audio/O.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\test_audio\\O.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/default.png\"}",
+        "name": "default",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/salah.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "salah",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/main-title.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\main-title.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/text/nada_burung_nusantara.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\text\\nada_burung_nusantara.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\start.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/setting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\setting.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\bg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/music_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\music_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/sound_icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\sound_icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/bg_slider.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\bg_slider.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/slider_fill_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\slider_fill_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\thumb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/setting/slider_fill_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\setting\\slider_fill_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/BG_hutan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\BG_hutan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_merah_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_merah_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_hijau_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_hijau_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung/burung_coklat_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung\\burung_coklat_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\slot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan_with_kayu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan_with_kayu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_merah_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_merah_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_hijau_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_hijau_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_burung_besar/burung_coklat_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_burung_besar\\burung_coklat_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_hutan_with_pond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_hutan_with_pond.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg_nada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg_nada.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/note_musik/Frame 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\note_musik\\Frame 24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\close.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bg/bg_loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bg\\bg_loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/happy_school/Happy School.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\happy_school\\Happy School.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_loading/Frame 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_loading\\Frame 18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_loading/Group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_loading\\Group.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_loading/Group-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\burung_loading\\Group-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/button/setting_gameplay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button\\setting_gameplay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/burung_hijau_bergerak8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "burung_hijau_bergerak8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/correct_layer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "correct_layer",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 729.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 729.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 730.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 730.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 733.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 733.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 734.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 734.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 738.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 738.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 739.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 739.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/hutan gameplay bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\hutan gameplay bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/danau gameplay bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\danau gameplay bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/music and sound/bgm/menu bgm - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music and sound\\bgm\\menu bgm - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-192.png\"}",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-144.png\"}",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-96.png\"}",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-72.png\"}",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-48.png\"}",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-36.png\"}",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-windowSplashScreenAnimatedIcon.png\"}",
+        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-1024.png\"}",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-180.png\"}",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-167.png\"}",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-152.png\"}",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-144.png\"}",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-120.png\"}",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-114.png\"}",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-100.png\"}",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-87.png\"}",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-80.png\"}",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-76.png\"}",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-72.png\"}",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-60.png\"}",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-58.png\"}",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-57.png\"}",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-50.png\"}",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-40.png\"}",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-29.png\"}",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-20.png\"}",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "button setting di gameplay - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button setting di gameplay - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button X di setting - maestro melodi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button X di setting - maestro melodi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet level - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet level - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet level yang masih kekunci - maestro melod.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet level yang masih kekunci - maestro melod.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dark_screen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg_setting",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\bg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 688,
+                        "y": 0
+                      },
+                      {
+                        "x": 688,
+                        "y": 582
+                      },
+                      {
+                        "x": 0,
+                        "y": 582
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "music_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\music_icon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 134,
+                        "y": 0
+                      },
+                      {
+                        "x": 134,
+                        "y": 134
+                      },
+                      {
+                        "x": 0,
+                        "y": 134
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sound_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\setting\\sound_icon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 144,
+                        "y": 0
+                      },
+                      {
+                        "x": 144,
+                        "y": 104
+                      },
+                      {
+                        "x": 0,
+                        "y": 104
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "draggable",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "burung_merah_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 211.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 213
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_hijau_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 197
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 180.5,
+                        "y": 195.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 163,
+                        "y": 176
+                      },
+                      {
+                        "x": 40,
+                        "y": 178
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 164,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_merah_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_merah_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40,
+                        "y": 213
+                      },
+                      {
+                        "x": 41,
+                        "y": 0
+                      },
+                      {
+                        "x": 183,
+                        "y": 0
+                      },
+                      {
+                        "x": 184.5,
+                        "y": 212.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burung_hijau_bergerak5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 178
+                      },
+                      {
+                        "x": 0,
+                        "y": 178
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burung_hijau_bergerak6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 178
+                      },
+                      {
+                        "x": 0,
+                        "y": 178
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burung_hijau_bergerak7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 178
+                      },
+                      {
+                        "x": 0,
+                        "y": 178
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "burung_hijau_bergerak8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 0
+                      },
+                      {
+                        "x": 204,
+                        "y": 178
+                      },
+                      {
+                        "x": 0,
+                        "y": 178
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung\\burung_coklat_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 177.5
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 162.5,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 157.5,
+                        "y": 174.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cancel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween",
+          "Scale": "Scale",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleScale": 1,
+          "FocusedScale": 1.05,
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "PressedScale": 0.95,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\button\\close.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 145,
+                        "y": 0
+                      },
+                      {
+                        "x": 145,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "setting_button_gameplay",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween",
+          "Scale": "Scale",
+          "ButtonFSM": "ButtonFSM",
+          "Tween": "Tween",
+          "IdleScale": 1,
+          "FocusedScale": 1,
+          "FadeInDuration": 0.1,
+          "FadeOutDuration": 0.2,
+          "PressedScale": 0.95,
+          "FadeInEasing": "easeInOutQuad",
+          "FadeOutEasing": "easeInOutQuad",
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\button\\setting_gameplay.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 0
+                      },
+                      {
+                        "x": 68,
+                        "y": 65
+                      },
+                      {
+                        "x": 0,
+                        "y": 65
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "draggable_besar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "jawaban_benar",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "burung_merah_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_diam",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_merah_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_merah_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_merah_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_merah_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_merah_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_hijau_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_hijau_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "burung_coklat_bergerak",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_coklat_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_coklat_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_coklat_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\burung_burung_besar\\burung_coklat_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 434.5,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 464.5,
+                        "y": 471.5
+                      },
+                      {
+                        "x": 128.5,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "music",
+      "persistentUuid": "7968be3c-5bfb-4745-868b-6085b8018e43",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "music",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "ShowLabelAtChanges": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "sound",
+      "persistentUuid": "d8f6d8fb-c7fa-4587-8f89-d73b93ed613a",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "sound",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "ShowLabelAtChanges": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "musical_note",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "is_draggable",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "index",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "is_correct_answer",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 29
+                      },
+                      {
+                        "x": 84,
+                        "y": 29
+                      },
+                      {
+                        "x": 84,
+                        "y": 158
+                      },
+                      {
+                        "x": 28,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 19.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 5
+                      },
+                      {
+                        "x": 96,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 94.5,
+                        "y": 187
+                      },
+                      {
+                        "x": 3,
+                        "y": 186
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 27
+                      },
+                      {
+                        "x": 84,
+                        "y": 29
+                      },
+                      {
+                        "x": 84,
+                        "y": 158
+                      },
+                      {
+                        "x": 0,
+                        "y": 173.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 29
+                      },
+                      {
+                        "x": 109.5,
+                        "y": 32
+                      },
+                      {
+                        "x": 112,
+                        "y": 157
+                      },
+                      {
+                        "x": 28,
+                        "y": 158
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 113,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 113,
+                        "y": 128
+                      },
+                      {
+                        "x": 112,
+                        "y": 152.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 164
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\note_musik\\Frame 24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 29
+                      },
+                      {
+                        "x": 99,
+                        "y": 28
+                      },
+                      {
+                        "x": 93,
+                        "y": 156.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 158.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "correct_and_incorrrect_layer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "correct",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "incorrect",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "correct_layer",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TransisiLoading",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "setting",
+        "children": [
+          {
+            "objectName": "music_icon"
+          },
+          {
+            "objectName": "sound_icon"
+          },
+          {
+            "objectName": "bg_setting"
+          },
+          {
+            "objectName": "dark_screen"
+          }
+        ]
+      },
+      {
+        "objectName": "draggable"
+      },
+      {
+        "objectName": "cancel"
+      },
+      {
+        "objectName": "setting_button_gameplay"
+      },
+      {
+        "objectName": "draggable_besar"
+      },
+      {
+        "objectName": "music"
+      },
+      {
+        "objectName": "sound"
+      },
+      {
+        "objectName": "musical_note"
+      },
+      {
+        "objectName": "correct_and_incorrrect_layer"
+      },
+      {
+        "objectName": "TransisiLoading"
+      }
+    ]
+  },
+  "objectsGroups": [
+    {
+      "name": "setting",
+      "objects": [
+        {
+          "name": "bg_setting"
+        },
+        {
+          "name": "sound_icon"
+        },
+        {
+          "name": "music_icon"
+        },
+        {
+          "name": "music"
+        },
+        {
+          "name": "sound"
+        },
+        {
+          "name": "cancel"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "setting_var",
+      "type": "structure",
+      "children": [
+        {
+          "name": "music",
+          "type": "number",
+          "value": 80
+        },
+        {
+          "name": "sound",
+          "type": "number",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "name": "loading_target",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-title"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level_3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading_scene"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/setting_menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/setting_gameplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_gameplay_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_gameplay_2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music_menu"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sway"
+    }
+  ],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/setting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/correct-and-incorrect"
+    }
+  ]
+}
